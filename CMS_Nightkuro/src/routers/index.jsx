@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router";
-import LoginPage from "../pages/LoginPage.jsx";
-import HomePage from "../pages/HomePage.jsx";
-import ProductPage from "../pages/ProductPage.jsx";
+import LoginPage from "../Pages/LoginPage.jsx";
+import HomePage from "../Pages/HomePage.jsx";
+import ProductPage from "../Pages/ProductPage.jsx";
 import ProtactionLayout from "../layouts/ProtactionLayout.jsx";
-import CategoryPage from "../pages/CategoryPage.jsx";
-import AddProductPage from "../pages/AddProductPage.jsx";
-import EditProductPage from "../pages/EditProductPage.jsx";
-import AddUserPage from "../pages/AddUserPage.jsx";
+import CategoryPage from "../Pages/CategoryPage.jsx";
+import AddProductPage from "../Pages/AddProductPage.jsx";
+import EditProductPage from "../Pages/EditProductPage.jsx";
+import AddUserPage from "../Pages/AddUserPage.jsx";
 
 const Router = () => {
   return (

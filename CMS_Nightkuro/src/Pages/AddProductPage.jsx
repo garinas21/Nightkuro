@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { BASE_URL } from "../constant/Constant";
+import { BASE_URL } from "../constant/Constant.js";
 import { toast, ToastContainer } from "react-toastify";
 import { Link, useNavigate } from "react-router";
 import FormProduct from "../Components/FormProduct.jsx";

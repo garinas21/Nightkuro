@@ -2,8 +2,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
-import { BASE_URL } from "../constant/Constant";
-import FormProduct from "../Components/FormProduct";
+import { BASE_URL } from "../constant/Constant.js";
+import FormProduct from "../Components/FormProduct.jsx";
 
 const EditProductPage = () => {
   const { id } = useParams();
