@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { BASE_URL } from "../constant/Constant";
 import { toast, ToastContainer } from "react-toastify";
 import { Link, useNavigate } from "react-router";
-import FormProduct from "../Components/FormProduct";
+import FormProduct from "../Components/FormProduct.jsx";
 
 const AddProductPage = () => {
   const navigate = useNavigate();

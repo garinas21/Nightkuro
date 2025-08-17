@@ -1,6 +1,6 @@
 import { Outlet, useNavigate } from "react-router";
-import Header from "../Components/Header";
-import SideBar from "../Components/SideBar";
+import Header from "../Components/Header.jsx";
+import SideBar from "../Components/SideBar.jsx";
 import { useEffect } from "react";
 
 const ProtactionLayout = () => {
