@@ -6,7 +6,7 @@ import ProtactionLayout from "../layouts/ProtactionLayout.jsx";
 import CategoryPage from "../pages/CategoryPage.jsx";
 import AddProductPage from "../pages/AddProductPage.jsx";
 import EditProductPage from "../pages/EditProductPage.jsx";
-import AddUserPage from "../pages/AddUserPagej";
+import AddUserPage from "../pages/AddUserPage.jsx";
 
 const Router = () => {
   return (
