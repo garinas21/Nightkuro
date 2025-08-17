@@ -51,7 +51,7 @@ const HomePage = () => {
                 onClick={(event) => {
                   setFilter(el.id);
                 }}
-                className="h-16 w-full flex items-center justify-center border-2 border-gray-100/30 rounded-2xl hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out"
+                className="h-16 w-full flex items-center justify-center border-2 border-gray-100/30 rounded-2xl cursor-pointer hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out"
               >
                 <span className="text-blue-950 font-bold line-clamp-1 hover:line-clamp-2">
                   {el.name}
@@ -97,12 +97,14 @@ const HomePage = () => {
               </Link>
             ))}
           </div>
-          <Link
-            to="/product"
-            className="text-blue-950 text-2xl font-bold hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out mb-20"
-          >
-            See all Collection
-          </Link>
+          <div className="bg-gray-700 h-40 w-screen flex justify-center p-10 rounded-tl-4xl">
+            <Link
+              to="/product"
+              className="text-blue-100 text-2xl font-bold hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out mb-20"
+            >
+              <h1>See all Collection</h1>
+            </Link>
+          </div>
         </div>
       </div>
     </>
