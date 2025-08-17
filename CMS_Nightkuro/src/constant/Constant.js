@@ -1,1 +1,1 @@
-export const BASE_URL = "http://nightkuro.akbars21.my.id";
+export const BASE_URL = "https://nightkuro.akbars21.my.id";
